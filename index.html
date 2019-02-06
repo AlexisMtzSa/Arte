@@ -1,0 +1,76 @@
+<html>
+	<head>
+ 		<title>Catálogo de arte</title>
+ 		<link rel="stylesheet" type="text/css" href="style.css" />
+
+
+
+ 		<script language="javascript">
+		function Busqueda()
+		 {
+
+               alert("Sin resultados");
+		 }
+		</script>
+
+
+
+ 		</head>
+ 			<body>
+ 			<h1 align="center">CATÁLOGO DE ARTE</h1>
+
+ 			
+ 				<form>
+ 					<center>
+ 					<h4>Introduce los términos de búsqueda:</h4>
+ 					<table bgcolor="gray">
+
+					 <p>
+					 <tr>
+					 <th>Obra:<th/>
+					 <th>Tipo:<th/>
+					 <th>Disponibilidad:<th/>
+					 <th>Estilo:<th/>
+					 <tr/>
+					 </p>
+
+					 <tr>
+					 <td>Título:&nbsp;&nbsp;<input type="text" name="Título"size="10" required><td/>
+					 <td><input type="checkbox" name="Escultura"   value="Escul">Escultura<td/>	
+					 <td><input type="radio" name="hora" value="10">Museo / Acceso público<td/>
+					 <td><select name="estilo"><option>Clásico<option>Contemporáneo<select/><td/>
+					 <tr/>
+
+					 <tr>
+					 <td>Autor:&nbsp;&nbsp;<input type="text" name="Autor"size="10" required><td/>
+					 <td><input type="checkbox" name="Arquitectura"   value="Arqui">Arquitectura<td/>	
+					 <td><input type="radio" name="Coleccion" value="10">Colección privada<td/>
+					 <td><td/>
+					 <tr/>
+
+					 <tr>
+					 <td><td/>
+					 <td><input type="checkbox" name="Pintura"   value="Pintu">Pintura<td/>	
+					 <td><td/>
+					 <td><td/>
+					 <tr/>
+
+					 <table/>
+					 
+					 <br>
+					 <br>
+
+					 Háganos saber sus sugerencias:<br>&nbsp;<textarea name="sugerencias"
+					 rows="5" cols="40" >Me gustaría indicar que...</textarea>
+
+					 <br>
+
+					 <input type="submit" name="Buscar"  id = "Buscar" value="Buscar" onclick= "Busqueda()">
+
+
+					 
+					 
+					 <center/>
+ 				</form>
+ 			</body>
+</html>
